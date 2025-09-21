@@ -1,6 +1,6 @@
 import NavBar from "./NavBar";
 import { LuShoppingCart } from "react-icons/lu";
-import { HiMenu } from "react-icons/hi"; 
+import { HiMenu } from "react-icons/hi";
 
 function Header() {
   return (

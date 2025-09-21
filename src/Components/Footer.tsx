@@ -1,23 +1,43 @@
-import React from 'react';
-import { FaFacebookF, FaTwitter } from 'react-icons/fa';
+import React from "react";
+import { FaFacebookF, FaTwitter } from "react-icons/fa";
 
 const Footer: React.FC = () => {
   const linkSections = [
     {
-      title: 'Information',
-      links: ['About Us', 'Information', 'Privacy Policy', 'Terms & Conditions'],
+      title: "Information",
+      links: [
+        "About Us",
+        "Information",
+        "Privacy Policy",
+        "Terms & Conditions",
+      ],
     },
     {
-      title: 'Service',
-      links: ['About Us', 'Information', 'Privacy Policy', 'Terms & Conditions'],
+      title: "Service",
+      links: [
+        "About Us",
+        "Information",
+        "Privacy Policy",
+        "Terms & Conditions",
+      ],
     },
     {
-      title: 'My Account',
-      links: ['About Us', 'Information', 'Privacy Policy', 'Terms & Conditions'],
+      title: "My Account",
+      links: [
+        "About Us",
+        "Information",
+        "Privacy Policy",
+        "Terms & Conditions",
+      ],
     },
     {
-      title: 'Our Offers',
-      links: ['About Us', 'Information', 'Privacy Policy', 'Terms & Conditions'],
+      title: "Our Offers",
+      links: [
+        "About Us",
+        "Information",
+        "Privacy Policy",
+        "Terms & Conditions",
+      ],
     },
   ];
 
@@ -30,14 +50,17 @@ const Footer: React.FC = () => {
               <img src="/Images/Group-491.png" alt="Company Logo" />
             </div>
             <p className="text-sm mt-4">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
             </p>
-          </div>
+          </div> 
 
           <div>
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
             <p className="text-sm mb-4">
-              Since the 1500s, when an unknown printer took a galley of type and scrambled.
+              Since the 1500s, when an unknown printer took a galley of type and
+              scrambled.
             </p>
             <div className="flex space-x-4 justify-center md:justify-start">
               <a className="text-blue-600 hover:text-blue-800 cursor-pointer">
@@ -81,10 +104,18 @@ const Footer: React.FC = () => {
             © 2025 All Rights Reserved
           </p>
           <div className="flex space-x-2">
-            <div className="w-10 h-6 bg-gray-300 rounded flex items-center justify-center text-xs font-bold">VISA</div>
-            <div className="w-10 h-6 bg-gray-300 rounded flex items-center justify-center text-xs font-bold">MC</div>
-            <div className="w-10 h-6 bg-gray-300 rounded flex items-center justify-center text-xs font-bold">PayPal</div>
-            <div className="w-10 h-6 bg-gray-300 rounded flex items-center justify-center text-xs font-bold">VISA</div>
+            <div className="w-10 h-6 bg-gray-300 rounded flex items-center justify-center text-xs font-bold">
+              VISA
+            </div>
+            <div className="w-10 h-6 bg-gray-300 rounded flex items-center justify-center text-xs font-bold">
+              MC
+            </div>
+            <div className="w-10 h-6 bg-gray-300 rounded flex items-center justify-center text-xs font-bold">
+              PayPal
+            </div>
+            <div className="w-10 h-6 bg-gray-300 rounded flex items-center justify-center text-xs font-bold">
+              VISA
+            </div>
           </div>
         </div>
       </div>
