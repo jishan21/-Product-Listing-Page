@@ -11,9 +11,9 @@ const deals = [
 
 function HotDeals() {
   return (
-    <div className="bg-zinc-100 p-6 rounded-lg shadow-sm w-full max-w-sm">
+    <div className="bg-[#f6f7f8] p-6 rounded shadow-sm w-full max-w-sm">
       <h3 className="text-lg font-semibold text-gray-800 mb-4">Hot Deals</h3>
-      <ul className="space-y-7">
+      <ul className="space-y-5">
         {deals.map((deal, index) => (
           <li key={index} className="flex justify-between items-center text-sm">
             <a  className={`hover:text-blue-500 ${deal.active ? 'text-blue-500 font-semibold' : 'text-gray-600'} hover:cursor-pointer`}>

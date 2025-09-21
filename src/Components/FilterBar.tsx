@@ -1,5 +1,5 @@
-import { BsGridFill } from 'react-icons/bs';
-import { FaList } from 'react-icons/fa';
+import { BiSolidGrid } from "react-icons/bi";
+import { BsList  } from 'react-icons/bs';
 
 interface FilterBarProps {
   totalItems: number;
@@ -9,7 +9,7 @@ interface FilterBarProps {
 
 function FilterBar({ totalItems, onSortChange, onShowChange }: FilterBarProps) {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between w-full p-4 my-8 bg-gray-50 rounded-lg gap-4">
+    <div className="flex flex-col md:flex-row items-center justify-between w-full p-4 my-8 bg-gray-50 rounded-lg gap-4 lg:h-12 md:h-12">
       <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
         <span className="text-gray-600 text-nowrap">{totalItems} items</span>
         <div className="flex items-center gap-2">
@@ -41,10 +41,11 @@ function FilterBar({ totalItems, onSortChange, onShowChange }: FilterBarProps) {
       </div>
       <div className="flex items-center gap-2">
         <button className="p-2 rounded-md text-blue-500 hover:bg-gray-200" aria-label="Grid View">
-          <BsGridFill size={20} />
+                    <BiSolidGrid size={27} />
+
         </button>
         <button className="p-2 rounded-md text-gray-400 hover:bg-gray-200" aria-label="List View">
-          <FaList size={20} />
+          <BsList size={27} />
         </button>
       </div>
     </div>

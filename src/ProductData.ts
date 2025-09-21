@@ -9,7 +9,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.5,
     ratingCount: 120,
     isHot: true,
-    colors: ["white", "black", "red"],
+    colors: ["white"],
     category: "Sneakers",
     imageUrl:
       "https://images.unsplash.com/photo-1656164847621-4665c4c397da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TmlrZSUyMEFpciUyMEZvcmNlJTIwMXxlbnwwfHwwfHx8MA%3D%3D",
@@ -35,7 +35,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.8,
     ratingCount: 200,
     isHot: true,
-    colors: ["blue", "gray", "black"],
+    colors: ["brown", "gray", "black"],
     category: "Bag",
     imageUrl:
       "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FudmFzJTIwYmFja3BhY2t8ZW58MHx8MHx8fDA%3D",
@@ -52,7 +52,6 @@ export const ProductData: ProductType[] = [
     imageUrl:
       "https://assets.adidas.com/images/w_600,f_auto,q_auto/701aeaab5d4f4ed382da2cb14562d9af_9366/Stan_Smith_Shoes_White_ID0268_01_standard.jpg",
   },
-  // ... adding more products to reach 24
   {
     id: 5,
     name: "Classic Watch",
@@ -72,7 +71,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.3,
     ratingCount: 95,
     isHot: false,
-    colors: ["beige", "black"],
+    colors: ["beige", "white"],
     category: "Bag",
     imageUrl:
       "https://images.unsplash.com/photo-1574365569389-a10d488ca3fb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG90ZSUyMGJhZ3xlbnwwfHwwfHx8MA%3D%3D",
@@ -84,7 +83,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.4,
     ratingCount: 110,
     isHot: false,
-    colors: ["black", "red", "blue"],
+    colors: ["red"],
     category: "Sneakers",
     imageUrl: "https://m.media-amazon.com/images/I/71HjpwKecFL._SL1500_.jpg",
   },
@@ -95,7 +94,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.1,
     ratingCount: 70,
     isHot: false,
-    colors: ["tan", "navy"],
+    colors: ["tan", "navy", "yellow"],
     category: "Belt",
     imageUrl:
       "https://www.asiansports.in/cdn/shop/files/Untitled_design_9.png?v=1742205372&width=1080",
@@ -109,7 +108,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.7,
     ratingCount: 180,
     isHot: true,
-    colors: ["black", "orange"],
+    colors: ["black", "yellow"],
     category: "Watch",
     imageUrl:
       "https://images.unsplash.com/photo-1617625802912-cde586faf331?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fERpZ2l0YWwlMjBTcG9ydHMlMjBXYXRjaHxlbnwwfHwwfHx8MA%3D%3D",
@@ -121,7 +120,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.6,
     ratingCount: 130,
     isHot: false,
-    colors: ["green", "black"],
+    colors: ["brown", "black"],
     category: "Bag",
     imageUrl: "https://m.media-amazon.com/images/I/71jd7iWjhEL._UY1000_.jpg",
   },
@@ -156,7 +155,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.8,
     ratingCount: 280,
     isHot: false,
-    colors: ["cream", "black", "sunflower"],
+    colors: ["black", "white"],
     category: "Sneakers",
     imageUrl:
       "https://www.converse.in/media/catalog/product/a/0/a00916c_a_107x1.jpg",
@@ -168,7 +167,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.9,
     ratingCount: 220,
     isHot: false,
-    colors: ["white", "black", "rose-gold"],
+    colors: ["white", "black"],
     category: "Watch",
     imageUrl:
       "https://watchessy.com/wp-content/uploads/2020/06/custom-watches.jpg",
@@ -182,7 +181,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.5,
     ratingCount: 140,
     isHot: true,
-    colors: ["navy", "gray"],
+    colors: ["black", "gray"],
     category: "Bag",
     imageUrl:
       "https://plus.unsplash.com/premium_photo-1671028547420-a541b5a1243e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHVmZmxlJTIwYmFnfGVufDB8fDB8fHww",
@@ -194,7 +193,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.6,
     ratingCount: 190,
     isHot: false,
-    colors: ["gray", "navy", "burgundy"],
+    colors: ["gray", "navy"],
     category: "Sneakers",
     imageUrl: "https://m.media-amazon.com/images/I/71af56zbNgL._UY1000_.jpg",
   },
@@ -231,7 +230,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.7,
     ratingCount: 160,
     isHot: false,
-    colors: ["black", "charcoal"],
+    colors: ["black"],
     category: "Bag",
     imageUrl:
       "https://carrypro.in/cdn/shop/files/5_f0fe29e3-7769-4322-bcc0-3fa5dfe39ee7.jpg?v=1725980734&width=1080",
@@ -243,7 +242,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.3,
     ratingCount: 100,
     isHot: false,
-    colors: ["white", "gum"],
+    colors: ["white"],
     category: "Sneakers",
     imageUrl:
       "https://images-cdn.ubuy.co.in/67e2481ef02d7324ef309bd6-reebok-womens-princess-sneakers-white.jpg",
@@ -267,7 +266,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 5.0,
     ratingCount: 550,
     isHot: false,
-    colors: ["black", "leather-brown"],
+    colors: ["black", "brown"],
     category: "Watch",
     imageUrl:
       "https://images.unsplash.com/photo-1748327929572-2ccf5716d3b9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXV0b21hdGljJTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D",
@@ -279,7 +278,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 3.9,
     ratingCount: 50,
     isHot: false,
-    colors: ["khaki", "olive"],
+    colors: ["olive"],
     category: "Belt",
     imageUrl:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhBm5-O_swnPUtcElkU1EfFk9rjr70JB3OHA&s",
@@ -293,7 +292,7 @@ export const ProductData: ProductType[] = [
     ratingValue: 4.8,
     ratingCount: 210,
     isHot: true,
-    colors: ["teal", "gray", "orange"],
+    colors: ["gray", "orange"],
     category: "Sneakers",
     imageUrl:
       "https://www.asics.co.in/media/catalog/product/1/2/1203a330_022_sr_rt_glb-base.jpg",

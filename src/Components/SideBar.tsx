@@ -7,27 +7,75 @@ import { FaTimes } from "react-icons/fa";
 interface SideBarProps {
   isOpen: boolean;
   onClose: () => void;
+  selectedColor: string | null;
+  onColorChange: (color: string | null) => void;
+  minPrice: number;
+  maxPrice: number;
+  priceValue: number;
+  onPriceChange: (value: number) => void;
 }
 
-function SideBar({ isOpen, onClose }: SideBarProps) {
-  const FilterContent = () => (
+interface FilterContentProps {
+  selectedColor: string | null;
+  onColorChange: (color: string | null) => void;
+  minPrice: number;
+  maxPrice: number;
+  priceValue: number;
+  onPriceChange: (value: number) => void;
+}
+
+function SideBar({ 
+  isOpen, 
+  onClose, 
+  selectedColor,
+  onColorChange,
+  minPrice,
+  maxPrice,
+  priceValue,
+  onPriceChange
+}: SideBarProps) {
+
+  const FilterContent = ({
+    selectedColor,
+    onColorChange,
+    minPrice,
+    maxPrice,
+    priceValue,
+    onPriceChange,
+  }: FilterContentProps) => (
     <>
       <HotDeals />
-      <PriceFilter />
-      <ColorFilter />
+      <PriceFilter 
+        min={minPrice}
+        max={maxPrice}
+        value={priceValue}
+        onChange={onPriceChange}
+      />
+      <ColorFilter 
+        selectedColor={selectedColor}
+        onColorChange={onColorChange}
+      />
       <BrandFilter />
-      <button className="w-full py-2.5 text-sm font-semibold text-gray-700 bg-white rounded-lg shadow-sm hover:bg-gray-100">
+      <button className="w-full py-2 text-sm font-semibold text-gray-700 bg-[#F6F7F8] rounded shadow-sm hover:bg-gray-100">
         MORE
       </button>
     </>
   );
 
+  const filterProps = {
+    selectedColor,
+    onColorChange,
+    minPrice,
+    maxPrice,
+    priceValue,
+    onPriceChange,
+  };
+
   return (
     <>
       <aside className="hidden lg:block w-full lg:w-64 space-y-7 my-3">
-        <FilterContent />
+        <FilterContent {...filterProps} />
       </aside>
-
       <div
         onClick={onClose}
         className={`fixed inset-0 bg-black/50 z-40 transition-opacity lg:hidden ${
@@ -45,7 +93,7 @@ function SideBar({ isOpen, onClose }: SideBarProps) {
             <FaTimes />
           </button>
         </div>
-        <FilterContent />
+        <FilterContent {...filterProps} />
       </aside>
     </>
   );

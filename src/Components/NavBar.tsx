@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div>
-      <nav className="flex items-center gap-4 font-semibold md:gap-5 lg:gap-7">
+      <nav className="flex items-center gap-4  md:gap-5 lg:gap-16">
         <Link
           className="text-sky-500 transition-colors duration-300 hover:text-sky-600"
           to="/home"

@@ -1,6 +1,6 @@
 function ProductBanner() {
   return (
-    <div className="flex flex-col md:flex-row items-center bg-[#38B6FF] font-Poppins text-white w-full mx-auto my-4 relative overflow-hidden rounded-lg">
+    <div className="flex flex-col md:flex-row items-center bg-[#40BFFF] font-Poppins text-white w-full mx-auto my-4 relative overflow-hidden ">
       <div className="flex-1 text-center md:text-left px-6 py-8 md:pl-16 md:pt-14 md:pb-8 z-10 max-w-lg">
         <h1 className="text-xl sm:text-2xl md:text-3xl font-medium tracking-wide">
           Adidas Men Running

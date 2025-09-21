@@ -42,23 +42,23 @@ const Footer: React.FC = () => {
   ];
 
   return (
-    <footer className="bg-blue-200 text-gray-700 py-12 px-4 sm:px-6 lg:px-8">
+    <footer className="bg-[#BCDDFE] text-gray-700 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 text-center md:text-left">
-          <div>
-            <div className="w-28 mx-auto md:mx-0">
+        <div className="py-12 px-16 grid grid-cols-1  md:grid-cols-3 gap-8 mb-1 text-center md:text-left">
+          <div className="w-full md:w-1/2 lg:w-[227px]">
+            <div className="w-[123px] mx-auto md:mx-0">
               <img src="/Images/Group-491.png" alt="Company Logo" />
             </div>
-            <p className="text-sm mt-4">
+            <p className="text-[12px] mt-4">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s.
             </p>
           </div> 
 
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
-            <p className="text-sm mb-4">
+          <div className="w-full md:w-1/2 lg:w-[220px]">
+            <h3 className="text-[18px] font-semibold mb-4">Follow Us</h3>
+            <p className="text-[12px] mb-4">
               Since the 1500s, when an unknown printer took a galley of type and
               scrambled.
             </p>
@@ -72,9 +72,9 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <p className="text-sm">
+          <div className="w-full md:w-1/2 lg:w-[220px]">
+            <h3 className="text-[18px] font-semibold mb-4">Contact Us</h3>
+            <p className="text-[12px]">
               E-Comm, 4578 <br />
               Marmora Road, <br />
               Glasgow D04 89GR
@@ -82,14 +82,14 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8 text-center sm:text-left">
+        <div className="grid py-6 px-18 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8 text-center sm:text-left">
           {linkSections.map((section) => (
             <div key={section.title}>
               <h3 className="text-lg font-semibold mb-4">{section.title}</h3>
-              <ul className="space-y-2">
+              <ul className="space-y-1">
                 {section.links.map((link) => (
                   <li key={link}>
-                    <a className="text-sm hover:underline cursor-pointer">
+                    <a className="text-[14px] hover:underline cursor-pointer">
                       {link}
                     </a>
                   </li>
@@ -99,23 +99,13 @@ const Footer: React.FC = () => {
           ))}
         </div>
 
-        <div className="border-t border-gray-400 pt-6 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-xs text-gray-500 mb-4 sm:mb-0">
+        <div className="border-t border-zinc-50 pt-6 flex flex-col sm:flex-row justify-between items-center">
+          <p className="text-xs text-zinc-300 mb-4 sm:mb-0">
             © 2025 All Rights Reserved
           </p>
-          <div className="flex space-x-2">
-            <div className="w-10 h-6 bg-gray-300 rounded flex items-center justify-center text-xs font-bold">
-              VISA
-            </div>
-            <div className="w-10 h-6 bg-gray-300 rounded flex items-center justify-center text-xs font-bold">
-              MC
-            </div>
-            <div className="w-10 h-6 bg-gray-300 rounded flex items-center justify-center text-xs font-bold">
-              PayPal
-            </div>
-            <div className="w-10 h-6 bg-gray-300 rounded flex items-center justify-center text-xs font-bold">
-              VISA
-            </div>
+          <div className="w-38 relative right-4">
+           
+            <img src="/Images/Brands.png" alt="" />
           </div>
         </div>
       </div>
