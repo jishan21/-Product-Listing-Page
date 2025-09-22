@@ -32,7 +32,7 @@ How to Run
 1.	Clone the repository
     git clone  https://github.com/jishan21/-Product-Listing-Page
 2.	Go to project folder
-    cd Product_Ui
+    cd Product-Listing-Page
 
   Make sure you are in the main branch
   git checkout main
