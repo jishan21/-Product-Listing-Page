@@ -31,13 +31,19 @@ File Structure
 
 The project is easy to understand and organized well. All main components are in the src/components folder:
 
-Header.tsx: Shows the top header with logo, navigation, and cart icon.
-NavBar.tsx: Menu with links to different pages or sections.
-ProductsBodySection.tsx: Main container that manages filters, sorting, and pagination.
-Products.tsx: Shows the grid of product cards and uses FilterBar and Pagination.
-SideBar.tsx: Filter panel for brand, color, and price. Uses smaller components from SideBar folder and works as a mobile drawer too.
-Pagination.tsx: Handles the page navigation buttons.
-Footer.tsx: Bottom section with links and social media icons.
+1. Header.tsx: Shows the top header with logo, navigation, and cart icon.
+   
+2. NavBar.tsx: Menu with links to different pages or sections.
+   
+4. ProductsBodySection.tsx: Main container that manages filters, sorting, and pagination.
+   
+5. Products.tsx: Shows the grid of product cards and uses FilterBar and Pagination.
+   
+6. SideBar.tsx: Filter panel for brand, color, and price. Uses smaller components from SideBar folder and works as a mobile drawer too.
+   
+7. Pagination.tsx: Handles the page navigation buttons.
+   
+8. Footer.tsx: Bottom section with links and social media icons.
 
 
 How to Run
