@@ -3,25 +3,27 @@ E-Commerce Product Page
 This is a modern and responsive e-commerce product page built with React, Vite, and TypeScript. You can view products, filter them, sort them, and navigate easily.
 
 Features
-Responsive Layout: Works well on desktop, tablet, and mobile.
 
-Filters: Find products by color and price range.
+1. Responsive Layout: Works well on desktop, tablet, and mobile.
 
-Sorting: Sort products by name or price (high-to-low or low-to-high).
+2. Filters: Find products by color and price range.
 
-Pagination: Navigate through large lists of products easily.
+3. Sorting: Sort products by name or price (high-to-low or low-to-high).
 
-Clean Design: Simple and modern look for a smooth experience.
+4. Pagination: Navigate through large lists of products easily.
+
+5. Clean Design: Simple and modern look for a smooth experience.
 
 
 Technologies Used
-React – for building the user interface
 
-Vite – for fast development
+1. React – for building the user interface
 
-TypeScript – for safer and better code
+2. Vite – for fast development
 
-Tailwind CSS – for styling
+3. TypeScript – for safer and better code
+
+4. Tailwind CSS – for styling
 
 
 
