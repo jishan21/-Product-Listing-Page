@@ -4,10 +4,15 @@ This is a modern and responsive e-commerce product page built with React, Vite, 
 
 Features
 Responsive Layout: Works well on desktop, tablet, and mobile.
+
 Filters: Find products by color and price range.
+
 Sorting: Sort products by name or price (high-to-low or low-to-high).
+
 Pagination: Navigate through large lists of products easily.
+
 Clean Design: Simple and modern look for a smooth experience.
+
 
 Technologies Used
 React – for building the user interface
