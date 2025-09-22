@@ -11,9 +11,14 @@ Clean Design: Simple and modern look for a smooth experience.
 
 Technologies Used
 React – for building the user interface
+
 Vite – for fast development
+
 TypeScript – for safer and better code
+
 Tailwind CSS – for styling
+
+
 
 File Structure
 
